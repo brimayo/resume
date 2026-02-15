@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Brian Mayo - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>Brian Mayo</h1>
+    <h3>Senior Software/DevOps Engineer</h3>
+    <p>
+      <span class="material-icons">location_on</span>Essex Junction, VT&nbsp;&nbsp;|&nbsp;&nbsp;
+      <span class="material-icons">email</span><a href="mailto:brianmayo@outlook.com">brianmayo@outlook.com</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <span class="material-icons">phone</span>802-233-3101
+    </p>
+    <div class="btn-group">
+      <a class="btn" href="https://www.linkedin.com/in/brianjmayo/" target="_blank">
+        <span class="material-icons">account_box</span> LinkedIn
+      </a>
+      <a class="btn" href="BrianMayoResume.pdf" download>
+        <span class="material-icons">picture_as_pdf</span> Download PDF
+      </a>
+    </div>
+  </header>
+
+  <section>
+    <h2><span class="material-icons">work</span> Experience</h2>
+    <div class="job">
+      <p class="job-title">Senior Software/DevOps Engineer <span class="job-company">@ CallFinder</span> (2018 – Present)</p>
+      <ul>
+        <li>Developed scalable PHP/Laravel web apps for real-time speech analytics.</li>
+        <li>Refactored monolith into AWS-based modular services (Aurora RDS).</li>
+        <li>Used Docker & Kubernetes for containerized deployments.</li>
+        <li>Integrated GitHub webhooks with AWS CodePipeline for CI/CD.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <p class="job-title">Senior Software Engineer <span class="job-company">@ Cerner Corporation</span> (2008 – 2018)</p>
+      <ul>
+        <li>Built SaaS wellness portal for employers and health plans.</li>
+        <li>Led dev for MSN.com Wellness Center (2008–2010).</li>
+        <li>Integrated Apple HealthKit into mobile platform.</li>
+        <li>Led agile ceremonies and defect resolution efforts.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <p class="job-title">Software Developer <span class="job-company">@ velocityXperts</span> (2006 – 2008)</p>
+      <ul>
+        <li>Maintained POS software for Selection Video.</li>
+        <li>Automated nightly sales report uploads.</li>
+        <li>Provided IT and customer support.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="material-icons">school</span> Education</h2>
+    <p><strong>Bachelor of Software Engineering</strong> — Champlain College, 2007</p>
+    <p><strong>Associate of Software Development</strong> — Champlain College, 2005</p>
+  </section>
+
+  <section>
+    <h2><span class="material-icons">build</span> Skills</h2>
+    <div class="skills-box"">
+      <div class="skill-box">
+        <h3>Languages & Frameworks</h3>
+        <div class="skills-pills">
+          <span class="pill">.NET (C#, ASP)</span>
+          <span class="pill">JavaScript</span>
+          <span class="pill">PHP</span>
+          <span class="pill">Java</span>
+          <span class="pill">Objective-C</span>
+          <span class="pill">Swift</span>
+          <span class="pill">NodeJS</span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <h3>Web & Databases</h3>
+        <div class="skills-pills">
+          <span class="pill">jQuery</span>
+          <span class="pill">AJAX</span>
+          <span class="pill">JSON</span>
+          <span class="pill">MSSQL</span>
+          <span class="pill">MySQL</span>
+          <span class="pill">Laravel</span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <h3>Cloud & DevOps</h3>
+        <div class="skills-pills">
+          <span class="pill">AWS</span>
+          <span class="pill">Kubernetes</span>
+          <span class="pill">Docker</span>
+          <span class="pill">NGINX</span>
+          <span class="pill">GitHub Actions</span>
+          <span class="pill">CodePipeline</span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <h3>Tools</h3>
+        <div class="skills-pills">
+          <span class="pill">Kong</span>
+          <span class="pill">Kibana</span>
+          <span class="pill">Redis Commander</span>
+          <span class="pill">SigNoz</span>
+          <span class="pill">Konga</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="material-icons">contacts</span> References</h2>
+    <p>Available upon request.</p>
+  </section>
+
+  <footer>
+    © 2025 Brian Mayo — Hosted on GitHub Pages
+  </footer>
+
+  <script>
+    // Auto-switch to dark mode if user prefers it
+    (function() {
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const html = document.documentElement;
+      if (prefersDark && html.getAttribute("data-theme") !== "dark") {
+      html.setAttribute("data-theme", "dark");
+      }
+    })();
+  </script>
+
+</body>
+</html>
